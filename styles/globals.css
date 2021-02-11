@@ -1,5 +1,6 @@
 html,
 body {
+    background-color: rgb(77, 74, 97);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +14,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.box-produto{
+    width: 15%;
+    display: inline-flex;
+    background-color: rgb(100, 96, 129);
+    border: solid 1px rgba(0, 0, 0, 0.383);
+    margin: 10px;
 }
